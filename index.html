@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AIView Realty | Property Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="logo"><a href="./">AI<span>View</span></a></div>
+      <nav class="main-nav">
+        <a href="#listings">Buy</a>
+        <a href="#owners">List a property</a>
+        <a href="#contact" class="btn-primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>View properties like you’re in the sky.</h1>
+        <p>Explore homes on an interactive map and let AI help you find the right place.</p>
+      </div>
+      <form class="search-form">
+        <input type="text" placeholder="City, neighbourhood, or address">
+        <select>
+          <option>Buy</option>
+          <option>Rent</option>
+        </select>
+        <select>
+          <option>Min price</option>
+        </select>
+        <button type="submit">Search homes</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="listings" class="section">
+    <h2>Featured listings</h2>
+    <div class="listing-grid">
+      <!-- cards will be injected by app.js -->
+    </div>
+  </section>
+
+  <section id="owners" class="section section-alt">
+    <h2>List your property</h2>
+    <p>Coming soon: secure owner portal to publish your property directly on the map.</p>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <h2>Talk to us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your name">
+      <input type="email" placeholder="Email">
+      <textarea rows="4" placeholder="Tell us what you’re looking for"></textarea>
+      <button type="submit">Request a callback</button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      © 2026 AIView Realty · Built on GitHub Pages
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
